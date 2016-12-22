@@ -33,6 +33,7 @@
 
 .menu-title {
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 11px;
     color: #bbb;
 }
@@ -91,11 +92,11 @@ h2 {
 }
 
 ul {
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 
 ol {
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 
 pre {
@@ -186,4 +187,9 @@ pre {
     .modal-content {
         width: 100%;
     }
+}
+
+.active {
+    color: #1a75bC !important;
+    font-weight: bold !important;
 }
